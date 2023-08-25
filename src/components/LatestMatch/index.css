@@ -1,0 +1,111 @@
+/* Write your CSS here */
+.latest-match-container{
+    margin-top: 20px;
+}
+.latest-match-heading{
+    font-family: 'Bree Serif';
+    font-size:16px;
+    color:#ffffff;
+    display: block;
+}
+.latest-match-details{
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding:15px;
+}
+.latest-match-details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding: 15px;
+}
+.sub-container-1{
+    width:70%;
+}
+.latest-match-team-name{
+    font-family: 'Bree Serif';
+    font-size:20px;
+    color:#ffffff;
+}
+.latest-match-team-date{
+    font-family: 'Bree Serif';
+    font-size:18px;
+    color:#ffffff;
+}
+.latest-match-rem-details{
+    font-family: 'Bree Serif';
+    font-size:14px;
+    color:#ffffff;
+}
+.latest-match-team-logo{
+    max-height:60px;
+}
+.horizontal-line{
+    width: 100%;
+    border:2px solid #475569;
+}
+.sub-container-2{
+    width: 100%;
+    padding: 15px;
+}
+.label{
+    font-family: 'Bree Serif';
+    font-size:14px;
+    color:#ffffff;
+}
+.value{
+    font-family: 'Bree Serif';
+    font-size:12px;
+    color:#ffffff;
+}
+
+
+@media screen and (min-width:768px){
+    .latest-match-details{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding:25px;
+    }
+    .latest-match-details-container{
+        width: 60%;
+        padding: 20px;
+    }
+    .sub-container-1{
+        width:50%;
+        align-self: flex-start;
+    }
+    .latest-match-team-name{
+        font-size: 32px;
+    }
+    .latest-match-team-date{
+        font-size: 24px;
+    }
+    .latest-match-rem-details{
+        font-size: 18px;
+    }
+    .latest-match-team-logo{
+        max-height: 200px;
+        max-width: 200px;
+    }
+    .horizontal-line{
+        display: none;
+    }
+    .sub-container-2{
+        width: 33%;
+        text-align: right;
+        padding-right: 32px;
+    }
+    .label{
+        font-size:18px;
+    }
+    .value{
+        font-size: 14px;
+    }
+}
+
+
+
